@@ -22,10 +22,10 @@ cd ionic-mobile-app
 ## Checkout to the develop branch
 Develop branch will be the branch where we will merge our changes.
 
-Important: Any new branch should be born from develop.
 ```bash
 git pull origin && git checkout develop
 ```
+> **Important**: Any new branch should be born from develop.
 
 ## Install Ionic CLI
 if you already have the Ionic CLI please skip this step.
@@ -47,8 +47,10 @@ ionic serve
 ```bash
 ionic cap sync && ionic cap open ios
 ```
+> **Important**: You will need to install Xcode.
 
 ## Run app in Android
 ```bash
 ionic cap sync && ionic cap open android
 ```
+> **Important**: You will need to install Android Studio.
