@@ -7,7 +7,28 @@ The second one: you can run the app with iOS in a simulator or real iPhone.
 
 The third one: you can run the app in Android emulator or real android phone.
 
+## Clone the project
+Open your terminal and go to the folder where you want to clone the project, for this guide we will use Documents folder.
+```bash
+cd Documents
+
+git clone https://github.com/AlexBuenrostro12/ionic-mobile-app.git
+```
+Once the project was cloned locally open the project folder.
+```bash
+cd ionic-mobile-app
+```
+
+## Checkout to the develop branch
+Develop branch will be the branch where we will merge our changes.
+
+Important: Any new branch should be born from develop.
+```bash
+git pull origin && git checkout develop
+```
+
 ## Install Ionic CLI
+if you already have the Ionic CLI please skip this step.
 ```bash
 npm install -g @ionic/cli
 ```
