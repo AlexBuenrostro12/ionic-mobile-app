@@ -7,6 +7,16 @@ The second one: you can run the app with iOS in a simulator or real iPhone.
 
 The third one: you can run the app in Android emulator or real android phone.
 
+## Install Ionic CLI
+```bash
+npm install -g @ionic/cli
+```
+
+## Install dependencies
+```bash
+npm install
+```
+
 ## Run app in Browser
 ```bash
 ionic serve
