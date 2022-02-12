@@ -1,0 +1,31 @@
+.delivery-details {
+  padding: 15px 20px 15px 20px;
+
+  &-delivery-container-item {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+
+  &-icon {
+    width: 20px;
+    height: 20px;
+  }
+
+  &-delivery-text {
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: none;
+    margin-left: 10px;
+  }
+
+  &-segment {
+    --background: #f4f5f8;
+  }
+
+  .margin-bottom-extra {
+    margin-bottom: 20px;
+  }
+}
